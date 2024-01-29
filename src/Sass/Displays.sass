@@ -8,7 +8,9 @@
   flex-direction: column
   justify-content: space-between
   padding: 2rem 0rem 1rem
+  max-width: 35rem
   width: 30%
+  min-width: 21.563rem
   text-align: center
   align-items: center
   height: 20rem
@@ -50,6 +52,7 @@
     .squareInfos
       display: flex
       justify-content: space-between
+      align-items: center
 
       .info
         display: flex
@@ -66,3 +69,13 @@
 
         p
           margin: 0
+
+  @media screen and (max-width:390px) 
+    min-width: 16.875rem
+    height: 22rem
+
+    .squareInfos
+      flex-wrap: wrap
+      row-gap: 1rem
+
+  
