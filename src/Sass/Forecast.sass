@@ -1,0 +1,84 @@
+
+.forecast
+  background: url("../../public/skyImg.jpg") 
+  background-size: cover
+  background-repeat: no-repeat
+  background-position-x: 100%
+  background-position-y: 80%
+  border: 2px solid #fff
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  padding: 2rem 0rem 1rem
+  width: 70%
+  margin: auto
+  text-align: center
+  align-items: center
+  height: 30rem
+
+  .cityNameTitle
+    text-transform: capitalize
+
+  .tempTitle
+    font-size: 3rem
+
+  .tempSubtitle
+    font-size: 1rem
+    margin-top: -1rem
+    text-transform: capitalize
+  
+  .weatherIcon
+    width: 3rem
+    height: auto
+
+  header
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: -2.5rem
+    position: relative
+
+    .bi-geo-alt
+      font-size: 1.2rem
+      padding-right: .3rem
+      color: #ffffff8c
+
+    .bi-cloud-fill
+      position: absolute
+      top: -40%
+      left: -2.8%
+      font-size: 4rem
+      z-index: .5
+
+    p
+      font-weight: bolder
+      font-size: 1.2rem
+      color: #ffffff8c
+
+  section
+    display: flex
+    margin-top: 4rem
+    flex-direction: column
+    justify-content: space-between
+    gap: 2rem
+
+    .squareInfos
+      display: flex
+      justify-content: center
+
+      .info
+        display: flex
+        align-items: center
+        gap: .5rem
+        font-size: .7rem
+        background-color: #9362b47f
+        margin: 0 .5rem
+        padding: .3rem 1rem
+        border-radius: 10px
+
+        i
+          font-size: 1rem
+
+        p
+          margin: 0
